@@ -1,0 +1,68 @@
+/*COLORS
+
+Black ground: 222
+
+Primary color: #3ab5fe
+
+White: fafaff
+*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+h2,
+h3,
+h4 {
+    font-weight: 900;
+    transform: uppercase;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #222;
+}
+
+/*NAVBAR*/
+a {
+  color: #222;  
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+/*HERO */
+.hero {
+    position: relative;
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #222;
+}
+
+/*Call to action */
+.dark-background{
+    background-color: #222;
+    color: #fafaff;
+}
+
+.dark-background span{
+    color: #3ab5fe;
+}
